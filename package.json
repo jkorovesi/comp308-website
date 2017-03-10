@@ -1,27 +1,24 @@
 {
   "name": "comp308_assign1_joshuakorovesi",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "connect": "^3.6.0",
-    "express-session": "^1.15.1"
-  },
-  "devDependencies": {
-    "@types/express-session": "0.0.32"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jkorovesi/comp308-website.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jkorovesi/comp308-website/issues"
   },
-  "homepage": "https://github.com/jkorovesi/comp308-website#readme",
-  "description": ""
+  "homepage": "https://github.com/jkorovesi/comp308-website#readme"
 }
