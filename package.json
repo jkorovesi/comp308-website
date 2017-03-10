@@ -1,28 +1,33 @@
 {
-  "name": "comp308_assign1_joshuakorovesi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.15.2"
-  },
-  "devDependencies": {},
+  "name": "comp308-assign1-joshuakorovesi",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.5.0"
   },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jkorovesi/comp308-website.git"
   },
-  "author": "",
+  "author": "Joshua Korovesi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jkorovesi/comp308-website/issues"
   },
-  "homepage": "https://github.com/jkorovesi/comp308-website#readme"
+  "homepage": "https://github.com/jkorovesi/comp308-website#readme",
+  "description": ""
 }
