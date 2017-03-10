@@ -1,0 +1,23 @@
+{
+  "name": "comp308-assign1-joshuakorovesi",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Joshua Korovesi"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jkorovesi/comp308-website",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
