@@ -6,13 +6,13 @@ router.get('/', (req, res, next) => {
   let currentDate = new Date()
   res.render('index', {
      title: 'Home',
-    date: currentDate.getHours()
+    date: currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds()
    });
 });
 
-//Get the about page
-router.get('/about', (req, res, next) => {
-  res.render('about', { title: 'About' });
+//Get the contact page
+router.get('/contact', (req, res, next) => {
+  res.render('contact', { title: 'Contact' });
 });
 
 module.exports = router;
